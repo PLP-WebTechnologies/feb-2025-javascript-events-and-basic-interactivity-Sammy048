@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
+.success-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+    display: none;
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    padding: 8px 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+.dark-theme .container {
+    background-color: #444;
+    color: #f5f5f5;
+}
+
+.dark-theme input, .dark-theme select {
+    background-color: #555;
+    color: #f5f5f5;
+    border-color: #666;
+}
+
+.dark-theme h1 {
+    color: #f5f5f5;
+}
+
+#counter-container {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+.dark-theme #counter-container {
+    background-color: #555;
+}
+
+#counter {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+.dark-theme #counter {
+    color: #f5f5f5;
+}
+
+.counter-buttons {
+    margin-top: 10px;
+}
+
+.counter-buttons button {
+    margin: 0 5px;
+    padding: 8px 15px;
+}
+
+#decrement {
+    background-color: #dc3545;
+}
+
+#decrement:hover {
+    background-color: #c82333;
+}
